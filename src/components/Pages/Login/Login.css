@@ -1,0 +1,93 @@
+
+
+.loginPage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  background: #d2c8af;
+  padding: 42px;
+  border-radius: 8px;
+  width: 340px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+}
+
+h1 {
+  color: #6f7b63;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+h3 {
+  color: #6f7b63;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+label {
+  color: #6f7b63;
+  text-align: left;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  background: #f4efe3;
+  color: #131010;
+}
+
+input:focus {
+  outline: none;
+  border-color: #a06aa6;
+  box-shadow: 0 0 6px rgba(160, 106, 166, 0.35);
+}
+
+input,
+button {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+
+  background: #a6664c; /* dusty purple */
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #583628;
+  transform: translateY(-1px);
+}
+
+p {
+  margin-top: 18px;
+  font-weight: bold;
+  color: #b57bbb;
+  font-size: 14px;
+}
+
+.registerlink {
+  margin: 5px;
+}

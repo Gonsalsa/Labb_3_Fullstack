@@ -1,0 +1,35 @@
+header {
+    background: #d2c8af;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+  color: #6f7b63;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.logout-btn {
+  background: #d2c8af;
+  border: 1px solid #a6664c;
+  color: #a6664c;
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: auto;
+  float: right;
+  margin-right: 16px;
+}
+
+.logout-btn:hover {
+  background: #a6664c;
+  color: #fff;
+  transform: none;
+}
